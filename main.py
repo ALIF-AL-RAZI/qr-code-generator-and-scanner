@@ -25,5 +25,5 @@ while True:
         break
 
 b= webbrowser.open(str(a))
-cap.release(a)
-cv2.destroyAllWindow()
+cap.release()
+cv2.destroyAllWindows()
